@@ -7,6 +7,9 @@
       *
       * SAMPLE PROGRAM TO SCORE RISK IN PROVIDING CREDIT
       * OUTPUT WILL BE IN FORM OF PROBABILITY(0) & PROBABILITY(1)
+      * FIND FOR
+      *   - @HOSTNAME and replace it with the Host name of URL
+      *.  - @PORTNUM and replace it with the Port number of URL
       ************************************************************
 
        01 WS-WORK.
@@ -27,24 +30,13 @@
          03  ws-path                   pic x(15).
          03  ws-path-len               pic s9(8) BINARY.
          03  ws-host                   pic x(17) value
-                               '9.76.62.14'.
+                               '@HOSTNAME'.
          03  ws-portnumber             pic s9(8) BINARY value
-                               9007.
+                               @PORTNUM.
          03  ws-ownership              pic x(1).
          03  ws-loan-intent            pic x(1).
          03  ws-loan-grade             pic x(1).
          03  ws-default-onfile         pic x(1).
-
-       01  ws-json-string.
-           03 ws-str1           pic x(25)
-                         VALUE '{"inputs":[{"name":"IN0",'.
-           03 ws-str2           pic x(15)
-                         VALUE '"shape":[1,11],'.
-           03 ws-str3           pic x(18)
-                         VALUE '"datatype":"FP32",'.
-           03 ws-str4           pic x(600).
-           03 ws-str5           pic x(28)
-                         VALUE '"OUTPUTS":[{"NAME":"OUT0"}]}'.
 
        01 WS-input.
           03 ws-input-age         PIC X(3).
@@ -76,7 +68,6 @@
 
            PERFORM 0100-INITIALIZE.
            PERFORM 0200-CICS-INIT.
-      *    PERFORM 0300-PASS-input.
            PERFORM 0310-PASS-input.
            PERFORM 0400-CICS-MAIN.
            PERFORM 0600-CICS-RET.
