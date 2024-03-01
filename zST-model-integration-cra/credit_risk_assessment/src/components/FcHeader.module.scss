@@ -1,0 +1,129 @@
+@use '@carbon/react/scss/colors';
+
+
+// overriding header tooltip bg color
+// because the navigation is dark themed while the content is white
+// which means the dark theme tooltip bg blends into the white content bg
+.cds--header__global .cds--popover-content {
+  background-color: colors.$gray-20;
+}
+
+.cds--header__global .cds--popover-caret {
+  background-color: colors.$gray-20;
+}
+
+.CalcResultContainer {
+  display: grid;
+  grid-template-columns: 7fr 3fr 3fr;
+  grid-template-rows: 3fr;
+  text-align: left;
+  // height: 100vh;
+}
+
+.DivBorderBottom {
+  border-bottom: 1px solid #8d8d8d;
+  padding-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.div2 {
+  padding-left: 175px;
+}
+
+.Heading1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+
+.P1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  /* or 129% */
+
+  letter-spacing: 0.16px;
+  //width: 304px;
+}
+
+.P4 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  /* or 129% */
+
+  letter-spacing: 0.16px;
+  //width: 304px;
+}
+
+.P5 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  padding: 10px 0 0 0;
+  /* or 138% */
+
+  text-align: right;
+
+  width: 1000px;
+}
+
+.P3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 10px 0 0 0;
+  /* or 138% */
+
+  text-align: right;
+
+  width: 1000px;
+}
+
+.fakeLink {
+  /* caption-01
+
+This is for captions or legal content in a layout — not for body copy.
+*/
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.32px;
+
+  /* Link/$link-01 */
+
+  color: #78a9ff;
+  padding-bottom: 32px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.P3A{
+  float:right
+}
+.ResultContainer {
+  padding: 10px 0 10px 0;
+  // padding: 10px 10px 10px 30px;
+}
+.iconUser{
+  width: 30px;
+  height: 30px;
+}

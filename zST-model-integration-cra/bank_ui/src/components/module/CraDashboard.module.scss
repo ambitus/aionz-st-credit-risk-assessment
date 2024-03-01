@@ -1,0 +1,103 @@
+.CalcResultContainer {
+    display: grid;
+    grid-template-columns: 7fr 3fr 3fr;
+    grid-template-rows: 3fr;
+    text-align: right;
+    color: #e8eaef
+
+    // height: 100vh;
+  }
+  
+  .CalcContainer {
+    display: grid;
+    grid-template-columns: 10fr 67fr;
+    grid-template-rows: 1fr;
+    height: 90vh;
+} 
+  .DivBorderBottom {
+    border-bottom: 1px solid #8d8d8d;
+    padding-bottom: 24px;
+    margin-bottom: 10px;
+  }
+
+  .ResultContainer {
+    padding: 20px 10px 10px 30px;
+}
+  
+  .div2 {
+    padding-right: 10px;
+  }
+  
+  .Heading1 {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .P1 {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    /* or 129% */
+  
+    letter-spacing: 0.16px;
+    //width: 304px;
+  }
+  
+  .P2 {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    // padding-left:55px;
+    font-size: 42px;
+    line-height: 50px;
+    /* or 119% */
+  
+    text-align: center;
+  
+    // width: 80px;
+    // height: 100px;
+  }
+  
+  .P3 {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+  
+    text-align: center;
+  
+    width: 250px;
+    height: 36px;
+  }
+  
+  .fakeLink {
+    /* caption-01
+  
+  This is for captions or legal content in a layout — not for body copy.
+  */
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+  
+    letter-spacing: 0.32px;
+  
+    /* Link/$link-01 */
+  
+    color: #78a9ff;
+    padding-bottom: 32px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }

@@ -1,0 +1,33 @@
+.Title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.Description {
+  /* body-short-01
+
+This is for short paragraphs with no more than four lines and is commonly used in components.
+*/
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  letter-spacing: 0.16px;
+
+  /* Text/$text-04 */
+
+  color: #ffffff;
+
+  display: block;
+}
+
+.PageContainer {
+  padding: 0 30px 0 0;
+}

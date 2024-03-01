@@ -1,0 +1,10 @@
+.CalcContainer {
+        display: grid;
+        grid-template-columns: 33fr 67fr;
+        grid-template-rows: 1fr;
+        height: 90vh;
+}
+
+.ResultContainer {
+        padding: 10px 10px 10px 30px;
+}
