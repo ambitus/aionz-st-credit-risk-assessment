@@ -8,7 +8,11 @@ Within this solution template, there are various phases of the AI lifecycle incl
 View or download the [official AI Solution Template PDF](https://github.com/ambitus/aionz-st-credit-risk-assessment/blob/main/ai_solution_template_credit_risk_assessment.pdf) to get started
 
 ## Authors & Contributors
-- Evan Rivera: (Evan.Rivera@ibm.com)
-- Mahalakshmi Vignesh: (mahalakshmi.vignesh@ibm.com)
-- Kanupriya Goyal: (kanupriya.goyal@ibm.com)
-- Alexis Landis (alexis.mae.landis@ibm.com)
+- Owner:
+    - Evan Rivera (Evan.Rivera@ibm.com)
+- Development:
+    - Evan Rivera (Evan.Rivera@ibm.com)
+    - Mahalakshmi Vignesh (mahalakshmi.vignesh@ibm.com)
+    - Kanupriya Goyal (kanupriya.goyal@ibm.com)
+- Design:
+    - Alexis Landis (alexis.mae.landis@ibm.com)
