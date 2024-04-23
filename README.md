@@ -1,5 +1,5 @@
 # AI on IBM Z Credit Risk Assessment Solution Template
-This is an AI on IBM Z solution template for credit risk assessment. This solution template provides an example on how to deploy AI using an IBM Z environment, while making use of open source frameworks, Machine Learning for IBM z/OS (MLz), and more.
+This is an [AI on IBM Z solution template](https://ambitus.github.io/aionz-solution-templates/) for credit risk assessment. This solution template provides an example on how to deploy AI using an IBM Z environment, while making use of open source frameworks, Machine Learning for IBM z/OS (MLz), and more.
 
 Within this solution template, there are various phases of the AI lifecycle included. Work through each of the following steps to deploy your own credit risk assessment solution on IBM Z.
 # ![alt text](./imgs/tierra-mallorca-NpTbVOkkom8-unsplash.jpg)
